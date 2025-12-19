@@ -11,7 +11,9 @@
       "Bash(Remove-Item -Force nul -ErrorAction SilentlyContinue)",
       "Bash(rm:*)",
       "Bash(del nul)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)"
     ]
   }
 }

@@ -10,7 +10,7 @@ export async function GET() {
       orderBy: { category: "asc" },
     })
 
-    const categories = medicines.map(m => m.category)
+    const categories = medicines.map((m: { category: string }) => m.category)
 
     return NextResponse.json(categories)
   } catch (error) {
